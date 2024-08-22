@@ -1,7 +1,13 @@
-<style>
 h1 
 {
-    color : blue
+    color : blue;
+    text-align: center;
+    font-size: 64px;
+}
+
+#speciality {
+    color : green;
+    text-align: center;
 }
 
 p {
@@ -17,4 +23,43 @@ body
 {
     background-color: gray;
 }
-</style>
+
+ul {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+header {
+
+        display : flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    
+}
+
+li {
+    margin: 32px;
+}
+
+
+#contactbutton
+{
+    background-color: blue;
+    color: black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+#technicalsupport
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
